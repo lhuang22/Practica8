@@ -80,17 +80,14 @@ main .input{
     margin: 0 auto;
     margin-bottom: 35px;
 }
-main .input-container{
-    width: 525px;
-    border-radius: 100px ;
-    border: 8px solid #e1e2e6;
-    justify-content: center;
-    align-items: center;
-}
+
 main .input input{
-    width: 440px;
-    height: 40px;
-    
+    width: 100%;
+    height: 25px;
+    border: 1px solid #a09f9fc8;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
 }
 main .input-container:hover{
     box-shadow: 0 1px 6px 0 #d6d6d6;
@@ -100,6 +97,10 @@ main .input .search-icon{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    position: absolute;
+    top: 375px;
+    left: 520px;
+    align-items: center;
     width: 18px;
     height: 18px;
 }
@@ -108,9 +109,25 @@ main .input .micro-icon{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    position: absolute;
+    top: 375px;
+    left: 1020px;
+    align-items: center;
     width: 18px;
     height: 18px;
 }
+
+main .input .search-icon .micro-icon img{
+    left: 300px;
+}
+main .input img{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+main .search-icon img {
+    display: flex;
+    justify-content: center;}
 main .buttons div{
     width: 530px;
     margin: 0 auto;
@@ -122,7 +139,6 @@ main .buttons {
 }
 main .buttons button{
     height: 36px;
-    background-color: ;
     border: none;
     font-size: 14px;
     color: #3c4043;
@@ -156,18 +172,20 @@ footer a{
 footer a{
     color: #5f6368;
 }
-footer .footer2{
-    display: flex;
-}
-footer .footer3 a img{
-    
-}
 
 footer img{
     height: 12.25px;
     width: 14px;
     padding-right: 2px;
 }
-section {
-    text-align: center;
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
+footer div .footer3{
+    margin: auto;
+    padding-right: 50px;
+}
+
