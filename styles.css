@@ -1,34 +1,34 @@
 body{
-    margin: 0;/*marges*/
-    padding: 0;/*espai*/
-    font-family: Arial, Helvetica, sans-serif ;/*tipus de font de color*/
-    font-size: 13px;/*tamany*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 13px;
 }
 a{
-    text-decoration: none;/*decoració que té per defecte*/ 
-    cursor: pointer;/*canvi de cursor*/
+    text-decoration: none;
+    cursor: pointer;
 }
-header
-    width: 100%;/*amplada*/
-    height: 60px;/*altura*/
+header{
+    width: 100%;
+    height: 60px;
 }
 header nav{
-    display: flex;/*flex*/
-    flex-direction: row;/*posició en linea*/
-    margin-top: 10px;/*marges d'a dalt*/
-    justify-content: space-between;/*espai entre els textos*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
 }
 header nav .nav-right,.nav-left{
     width: 250px;
     height: auto;
     display: flex;
-    justify-content: center;/*font centrat*/
-    align-items: center;/*centrar els objectes*/
+    justify-content: center;
+    align-items: center;
 }
 nav .nav-left{
     display: flex;
     align-items: center;
-    justify-content: flex-start;/*posicionar al principi*/
+    justify-content: flex-start;
 }
 nav .nav-right, a{
     margin-left: 10px;
@@ -178,7 +178,6 @@ footer img{
     width: 14px;
     padding-right: 2px;
 }
-<<<<<<< HEAD
 footer div{
     display: flex;
     flex-direction: row;
@@ -190,8 +189,3 @@ footer div .footer3{
     padding-right: 50px;
 }
 
-=======
-section {
-    text-align: center;
-}
->>>>>>> 2ea2a8d3f1aae8f78ddbd2299df9ee0cd08b9c12
