@@ -1,40 +1,40 @@
-body{
+body{/*Estils per el body*/
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif ;
     font-size: 13px;
 }
-a{
+a{/*Estils per la lleetra*/
     text-decoration: none;
     cursor: pointer;
 }
-header{
+header{/*Estil per la capçalera*/
     width: 100%;
     height: 60px;
 }
-header nav{
+header nav{/*Estil per la barra de navegació*/
     display: flex;
     flex-direction: row;
     margin-top: 10px;
     justify-content: space-between;
 }
-header nav .nav-right,.nav-left{
+header nav .nav-right,.nav-left{/*Estil de navegació*/
     width: 250px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-nav .nav-left{
+nav .nav-left{/*Estil de la navegació esquerra*/
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-nav .nav-right, a{
+nav .nav-right, a{/*Estil de la navegació dreta*/
     margin-left: 10px;
     color: rgba(0, 0, 0, 0.479);
 }
-nav .nav-right .menu-icon{
+nav .nav-right .menu-icon{/*Estil per la icona de menu*/
     background-image: url('https://cdn-icons-png.flaticon.com/512/17/17704.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -43,7 +43,7 @@ nav .nav-right .menu-icon{
     height: 20px;
     margin-left: 25px;
 }
-nav .nav-right .button1 button{
+nav .nav-right .button1 button{/*Estil per els botons*/
     height: 36px;
     width: 120px;
     background-color:#1a73e8;
@@ -63,11 +63,11 @@ nav .nav-right .button1 a{
     color: white;
     text-align: center;
 }
-main{
+main{/*Estil per el contingut de centre*/
     margin-top: 100px;
     text-align: center;
 }
-main .logo{
+main .logo{/*Estil per el logo de Google*/
     width: 530px;
     margin: 0 auto;
     margin-bottom: 35px ;
@@ -81,7 +81,7 @@ main .input{
     margin-bottom: 35px;
 }
 
-main .input input{
+main .input input{/*Estils del buscador de google*/
     width: 100%;
     height: 25px;
     border: 1px solid #a09f9fc8;
@@ -92,7 +92,7 @@ main .input input{
 main .input-container:hover{
     box-shadow: 0 1px 6px 0 #d6d6d6;
 }
-main .input .search-icon{
+main .input .search-icon{/*Estil per la icona de cerca*/
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -104,7 +104,7 @@ main .input .search-icon{
     width: 18px;
     height: 18px;
 }
-main .input .micro-icon{
+main .input .micro-icon{/*Estil per la icona de microfon*/
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -154,7 +154,7 @@ main .buttons button:hover{
 .idiomas{
     margin-top: 10px;
 }
-.idiomas a{
+.idiomas a{/*Estil per l'apartat de idioma*/
     color: #1a73e8;
 }
 footer{
@@ -173,18 +173,18 @@ footer a{
     color: #5f6368;
 }
 
-footer img{
+footer img{/*Estil per la imatge*/
     height: 12.25px;
     width: 14px;
     padding-right: 2px;
 }
-footer div{
+footer div{/*Estil per el contenidor de la peu de pàgina*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
-footer div .footer3{
+footer div .footer3{/*Estil per la peu de pàgina*/
     margin: auto;
     padding-right: 50px;
 }
